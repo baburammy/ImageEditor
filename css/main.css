@@ -2,6 +2,7 @@
 	width:150px;
 	display:inline-block;
 	margin-right:50px;
+	margin-bottom:10px;
 }
 .libraryWrap.selected{
 	border:3px solid red;
@@ -15,23 +16,16 @@
 .libraryWrap .clr{
   clear:both;
 }
-.libraryWrap.selected::after{
-	width: 0; 
-	height: 0; 
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-	
-	border-top: 20px solid #f00;
+.libraryImages{
+	display:none;
 }
 .stageWrapper{
 	display:inline-block;
 	width:400px;
 }
-.libraryImages{
-	display:none;
+.stageAction{
+	padding-bottom:10px;
 }
-.stage.rotate{
-	 -ms-transform: rotate(90deg); 
-    -webkit-transform: rotate(90deg); 
-    transform: rotate(90deg);
-}
+#myLibrary,#imagesWrapper{
+ text-align:center;
+ }
