@@ -1,0 +1,37 @@
+.libraryWrap{
+	width:150px;
+	display:inline-block;
+	margin-right:50px;
+}
+.libraryWrap.selected{
+	border:3px solid red;
+}
+.libraryWrap .bImg{
+  float:left;
+}
+.libraryWrap .sImg{
+  float:right;
+}
+.libraryWrap .clr{
+  clear:both;
+}
+.libraryWrap.selected::after{
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	
+	border-top: 20px solid #f00;
+}
+.stageWrapper{
+	display:inline-block;
+	width:400px;
+}
+.libraryImages{
+	display:none;
+}
+.stage.rotate{
+	 -ms-transform: rotate(90deg); 
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg);
+}
